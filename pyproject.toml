@@ -1,0 +1,15 @@
+[project]
+name = "langchain-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel",
+    "langchain>=0.2.3",
+    "langchain-groq",
+    "langchain-openai",
+    "langgraph>=0.1.5",
+    "python-dotenv",
+    "streamlit>=1.53.0",
+]
